@@ -4,6 +4,10 @@ compiler:
   - gcc
   - cmake
 
+branches:
+  only:
+  - travis-test
+
 before_script:
   - mkdir build
   - cd build
